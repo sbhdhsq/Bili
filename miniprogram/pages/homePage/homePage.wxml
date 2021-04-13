@@ -1,0 +1,11 @@
+<!--pages/homePage/homePage.wxml-->
+<view class="header">
+  <view class="publish-container" bind:tap="onPublish">
+    <!-- 左侧的发布图标 -->
+    <i class="iconfont icon-fabu"></i>
+  </view>
+  <view class="search-container">
+    <!-- 引入搜索组件，接受子组件回传的search方法 -->
+    <s-search bind:search="onSearch" />
+  </view>
+</view>

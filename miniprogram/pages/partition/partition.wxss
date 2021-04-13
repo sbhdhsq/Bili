@@ -1,0 +1,23 @@
+.container{
+  padding-top: 0rpx;
+ display: flex;
+ width: 100%;
+ flex-flow: wrap;
+ justify-content: left;
+ height: 100%;
+ letter-spacing: 8rpx;
+}
+.outView {  
+  width: 25%;
+  height: 140rpx;
+  float: left;
+  text-align:center;
+  font-size: 25rpx;
+  font-family: "楷体";
+  line-height: 15px;
+  margin-top:50rpx
+}
+.icon {
+  width: 90%;
+  height: 45%;
+}
