@@ -62,6 +62,12 @@
         {
           "name": "pages/test/test",
           "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/partition/partition",
+          "pathName": "pages/partition/partition",
           "scene": null
         }
       ]

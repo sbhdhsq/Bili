@@ -7,9 +7,7 @@ App({
     wx.setStorageSync('logs', logs)
     wx.cloud.init({
       traceUser: true,
-
   })
-
     // 登录
     wx.login({
       success: res => {

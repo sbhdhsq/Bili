@@ -2,10 +2,18 @@
 <view class="header">
   <view class="publish-container" bind:tap="onPublish">
     <!-- 左侧的发布图标 -->
-    <i class="iconfont icon-fabu"></i>
+    <i class="iconfont .icon-sousuo"></i>
   </view>
   <view class="search-container">
     <!-- 引入搜索组件，接受子组件回传的search方法 -->
     <s-search bind:search="onSearch" />
   </view>
+</view>
+
+
+
+<view class="videolist-container">
+  <block wx:for="{{videolist}}" wx:key="_id">
+    <h-playlist playlist="{{item}}"></h-playlist>
+  </block>
 </view>

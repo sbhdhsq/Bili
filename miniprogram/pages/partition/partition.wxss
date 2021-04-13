@@ -1,10 +1,14 @@
+/**/
 .container{
+  /*离顶部距离*/
   padding-top: 0rpx;
  display: flex;
  width: 100%;
+ /*使图标横向排列*/
  flex-flow: wrap;
  justify-content: left;
  height: 100%;
+ /*文字间距*/
  letter-spacing: 8rpx;
 }
 .outView {  
@@ -14,7 +18,9 @@
   text-align:center;
   font-size: 25rpx;
   font-family: "楷体";
+  /*图标文字间距*/
   line-height: 15px;
+  /*行间距*/
   margin-top:50rpx
 }
 .icon {

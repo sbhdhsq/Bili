@@ -1,17 +1,16 @@
 {
-  "pages":[
+  "pages": [
     "pages/homePage/homePage",
     "pages/partition/partition",
     "pages/profile/profile",
     "pages/test/test"
-    
   ],
-  "window":{
+  "window": {
     "backgroundColor": "#FB7299",
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFF",
     "navigationBarTitleText": "哔哩哔哩",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#474747",
