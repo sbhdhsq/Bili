@@ -1,0 +1,21 @@
+<!--pages/homePage/homePage.wxml-->
+<h-navbar>
+  <view slot="content" style="width:150rpx;height:70%;display:flex;color:#000000;font-family: '楷体'">
+    <text>哔哩哔哩</text>
+  </view>
+</h-navbar>
+
+
+<!--顶部搜索区-->
+<view class="header">
+
+
+<view class="right">
+<!--引入搜索组件，接受组件回传的search方法-->
+  <h-search placeholder-class="iconfont icon-sousuo seachInput"  bind:search="onSearch"/>
+  
+</view>
+</view>
+
+ 
+

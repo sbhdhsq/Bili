@@ -1,2 +1,8 @@
 <!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<text id="1" data-index="{{1}}">pages/test/test.wxml</text>
+
+<button type="primary" bindtap="homeBtn">跳转到首页</button>
+
+
+<button type="default" bindtap="backBtn">返回</button>
+

@@ -1,0 +1,6 @@
+<view class="seachBox">
+    <input placeholder-class="iconfont icon-sousuo seachInput" bind:search="onSearch"></input>
+  </view>
+
+  
+ 

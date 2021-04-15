@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {},
+  homeBtn: function(options){
+   wx.switchTab({
+      url: '../homePage/homePage',
+   })
+ },
 
+ backBtn: function(options){
+   wx.navigateBack({
+     delta: 0,
+   })
+ },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -15,6 +25,13 @@ Page({
     }).then((res) =>{
       console.log(res)
     })
+    // wx.request({
+    //   url: 'url' +1,
+     
+    //   success: function(res) {
+    //     res.data 
+    //  }
+    // })
 
   },
 

@@ -1,22 +1,17 @@
 .container {
-  display: inline;
+  width:100%;
 }
-
-.container .input {
-    height: 65rpx;
-    font-size: 28rpx;
-    border-radius: 50px;
-    border: 1px solid #dedede;
-    background-color: #e6e6e6;
-    padding-left: 60rpx;
-    box-sizing: border-box;
-    margin-right: 40rpx;
-    margin-left: 40rpx;
+.input {
+  height: 60rpx;
+  width: 80%;
+  font-size: 28rpx;
+  border-radius: 50px;
+  border:0px solid #dedede;
+  background-color:#ececec;
+  padding-left: 60rpx;
+  margin: 0 auto;
 }
-
-.container .image{
-  width: 20rpx;
-  height: 20rpx;
+.seachInput{
+  display: flex;
+  left: -1.3em;
 }
-
-

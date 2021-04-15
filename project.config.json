@@ -68,6 +68,19 @@
         {
           "name": "pages/partition/partition",
           "pathName": "pages/partition/partition",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test3/test3",
+          "pathName": "pages/test3/test3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homesearch/homesearch",
+          "pathName": "pages/homesearch/homesearch",
+          "query": "",
           "scene": null
         }
       ]

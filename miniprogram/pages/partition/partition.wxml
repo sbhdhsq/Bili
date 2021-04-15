@@ -1,6 +1,13 @@
+<!-- <text>pages/partition/partition.wxml</text> -->
+<h-navbar>
+  <view slot="content" style="width:150rpx;height:70%;display:flex;color:#000000;font-family: '楷体';">
+    <text>哔哩哔哩</text>
+  </view>
+</h-navbar>
+
 <view class="container">
   <view wx:for="{{iconList}}" class="outView">
-    <image src="{{item.iconUrl}}" mode="aspectFit" class="icon"></image>
+    <image bind:tap="goTo" src="{{item.iconUrl}}" mode="aspectFit" class="icon" data-text="{{item.name}}"></image>
     <text style=" display: block">{{item.name}}</text>
   </view>
 </view>

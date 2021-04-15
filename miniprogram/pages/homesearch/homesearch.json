@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "h-navbar":"/components/navbar/navbar",
+    "h-search": "/components/searchhome/searchhome"
+  },
+  "navigationStyle":"custom"
+}
