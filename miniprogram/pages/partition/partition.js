@@ -69,115 +69,115 @@ Page({
   goTo:function(e){
     if ("番剧"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/bangumi/bangumi',
+        url: '../../pages/aimtron/aimtron',
       })
     }
 
     if ("国创"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/aimtron/aimtron',
+        url: '../../pages/bangumi/bangumi',
       })
     }
 
     if ("纪录片"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/documentary/documentary',
+        url: '../../pages/documentary/documentary',
       })
     }
 
     if ("动画"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/cartoon/cartoon',
+        url: '../../pages/cartoon/cartoon',
       })
     }
 
     if ("音乐"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/music/music',
+        url: '../../pages/music/music',
       })
     }
 
     if ("舞蹈"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/dance/dance',
+        url: '../../pages/dance/dance',
       })
     }
 
     if ("游戏"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/game/game',
+        url: '../../pages/game/game',
       })
     }
 
     if ("知识"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/knowledge/knowledge',
+        url: '../../pages/knowledge/knowledge',
       })
     }
 
     if ("数码"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/digital/digital',
+        url: '../../pages/digital/digital',
       })
     }
 
     if ("生活"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/life/life',
+        url: '../../pages/life/life',
       })
     }
 
     if ("美食"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/food/food',
+        url: '../../pages/food/food',
       })
     }
 
     if ("动物圈"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/animal/animal',
+        url: '../../pages/animal/animal',
       })
     }
 
     if ("鬼畜"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/ghost/ghost',
+        url: '../../pages/ghost/ghost',
       })
     }
 
     if ("时尚"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/fashion/fashion',
+        url: '../../pages/fashion/fashion',
       })
     }
 
     if ("娱乐"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/amusement/amusement',
+        url: '../../pages/amusement/amusement',
       })
     }
 
     if ("影视"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/movie/movie',
+        url: '../../pages/movie/movie',
       })
     }
 
     if ("电影"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/film/film',
+        url: '../../pages/film/film',
       })
     }
 
     if ("电视剧"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/teleplay/teleplay',
+        url: '../../pages/teleplay/teleplay',
       })
     }
 
     if ("游戏赛事"==e.currentTarget.dataset.text){
       wx.navigateTo({
-        url: '../../partitionpage/gameEvents/gameEvents',
+        url: '../../pages/gameEvents/gameEvents',
       })
     }
 

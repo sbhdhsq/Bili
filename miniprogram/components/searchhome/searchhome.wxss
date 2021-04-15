@@ -1,10 +1,9 @@
 .container {
-  width:90%;
+  width:160%;
 }
 .input {
   height: 60rpx;
   width: 80%;
-  font-size: 28rpx;
   border-radius: 50px;
   border:0px solid #dedede;
   background-color:#ececec;
@@ -12,25 +11,6 @@
   margin: 0 auto;
 }
 .seachInput{
-  display: flex;
   left: -1.3em;
 }
-.cancel{
-   font-size: 1em;
-   background-color: blue;
-}
-.divLine{
-  margin-top: 0.5em;
-  background: #E0E3DA;
-  width: 100%;
-  height: 2rpx;
- }
- .family{
-  margin-top: 2em;
- }
-.child{
-  margin-top: 2em;
-  background-color: #e5e2e2;
-  width: 5em;
-  font-size: 0.9em;
- }
+ 

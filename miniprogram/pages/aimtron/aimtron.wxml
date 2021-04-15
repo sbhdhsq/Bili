@@ -1,0 +1,6 @@
+<h-navbar>
+  <view slot="content" style="width:150rpx;height:70%;display:flex;color:#000000;font-family: '楷体'">
+    <text class='iconfont icon-fanhui'  style="margin-left:-30rpx;color:#000000;z-index:1000"   bind:tap="back"></text>
+    <text style="margin-left:10rpx;">番剧</text>
+  </view>
+</h-navbar>

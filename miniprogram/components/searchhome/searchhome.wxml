@@ -2,13 +2,6 @@
   
   <input class="input" placeholder-class="iconfont icon-sousuo seachInput"
   value='{{inputValue}}' bindinput="onInput" bindfocus="onFocus"> </input>
+</view>
 
-</view>
-<view class="divLine"></view>
 
-<view class="family">
-  <text>大家都在搜</text>
-</view>
-<view class="child">
-  <p>活死人军团</p>
-</view>

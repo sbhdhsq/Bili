@@ -1,9 +1,152 @@
 .header{
   /*离顶部距离*/
   padding-top: 220rpx;
-  
-}
-.seachInput{
   display: flex;
-  left: -1.3em;
 }
+
+.cancel{
+  width: 300rpx;
+  margin-top: 0.2em;
+  text-align: right;
+}
+.divLine{
+  margin-top: 0.5em;
+  background: #E0E3DA;
+  width: 100%;
+  height: 2rpx;
+ }
+ .family{
+  margin-top: 2em;
+  margin-left: 0.8em;
+ }
+.container2 .bt1{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 160rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt2{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 250rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt3{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 175rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt4{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 175rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt5{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 140rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt6{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt7{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 175rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt8{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 140rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt9{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 240rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt10{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 210rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt11{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt12{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 250rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+.container2 .bt13{
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 250rpx;
+  height: 50rpx;
+  font-size: 0.5em;
+  color: #5a5a5a;
+  background-color: rgb(223, 221, 224);
+  display: inline-block
+}
+

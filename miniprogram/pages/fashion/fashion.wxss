@@ -1,0 +1,6 @@
+/* pages/fashion/fashion.wxss */.container{
+  /*离顶部距离*/
+  padding-top: 220rpx;
+  letter-spacing: 10rpx;
+  
+}

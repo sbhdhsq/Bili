@@ -1,21 +1,45 @@
 <!--pages/homePage/homePage.wxml-->
 <h-navbar>
   <view slot="content" style="width:150rpx;height:70%;display:flex;color:#000000;font-family: '楷体'">
-    <text>哔哩哔哩</text>
+    <text class='iconfont icon-fanhui'  style="margin-left:-30rpx;color:#000000;z-index:1000"   bind:tap="back"></text>
+    <text style="margin-left:10rpx;">哔哩哔哩</text>
   </view>
 </h-navbar>
 
-
 <!--顶部搜索区-->
 <view class="header">
-
-
-<view class="right">
 <!--引入搜索组件，接受组件回传的search方法-->
   <h-search placeholder-class="iconfont icon-sousuo seachInput"  bind:search="onSearch"/>
+  <view class="cancel">
+    <text bind:tap="back">取消</text>
+  </view>
+</view>
+
+
+<view class="divLine"></view>
+
+<view class="family">
+  <text>大家都在搜</text>
+</view>
+
+<view class="container2">
+  <button class="bt1" bindtap="backBtn">拼多多</button>
+  <button class="bt2" bindtap="backBtn">世界上最大的狼</button>
+  <button class="bt3" bindtap="backBtn">作文大赛</button>
+  <button class="bt4" bindtap="backBtn">幻塔测试</button>
+  <button class="bt5" bindtap="backBtn">一加</button>
+  <button class="bt6" bindtap="backBtn">广西三月三</button>
+  <button class="bt7" bindtap="backBtn">日本食品</button>
+  <button class="bt8" bindtap="backBtn">间谍</button>
+  <button class="bt9" bindtap="backBtn">柯南绯色的子弹</button>
+  <button class="bt10" bindtap="backBtn">速度与激情9</button>
+  <button class="bt11" bindtap="backBtn">活死人军团</button>
+  <button class="bt12" bindtap="backBtn">日本核废水</button>
+  <button class="bt13" bindtap="backBtn">EDG RNG</button>
   
 </view>
-</view>
+
+
 
  
 

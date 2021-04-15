@@ -5,7 +5,26 @@
     "pages/profile/profile",
     "pages/test/test",
     "pages/test3/test3",
-    "pages/homesearch/homesearch"
+    "pages/homesearch/homesearch",
+    "pages/aimtron/aimtron",
+    "pages/amusement/amusement",
+    "pages/animal/animal",
+    "pages/bangumi/bangumi",
+    "pages/cartoon/cartoon",
+    "pages/dance/dance",
+    "pages/digital/digital",
+    "pages/documentary/documentary",
+    "pages/fashion/fashion",
+    "pages/food/food",
+    "pages/game/game",
+    "pages/gameEvents/gameEvents",
+    "pages/ghost/ghost",
+    "pages/knowledge/knowledge",
+    "pages/life/life",
+    "pages/movie/movie",
+    "pages/music/music",
+    "pages/teleplay/teleplay",
+    "pages/film/film"
 
   ],
   "window": {
